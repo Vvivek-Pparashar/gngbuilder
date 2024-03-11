@@ -55,7 +55,6 @@ nav > ul {
   nav {
     padding: 0 20px;
     height: 80px;
-    /* overflow-y: hidden; */
   }
 
   .not-active {
@@ -64,8 +63,6 @@ nav > ul {
     right: 0;
     width: 0%;
     height: 100vh;
-    /* margin-right: -100px; */
-    background-color: #d8c8bd;
     display: flex;
     flex-direction: column;
     align-items: center;

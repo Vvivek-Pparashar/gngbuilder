@@ -5,19 +5,19 @@ const ProjectNav = () => {
   return (
     <div className="pnav">
       <Link to={"#OverView"} className="Link">
-        <p>OVERVIEW</p>
+        OVERVIEW
       </Link>
       <Link to={"#Amenities"} className="Link">
-        <p>AMENITIES</p>
+        AMENITIES
       </Link>
       <Link to={"#Gallery"} className="Link">
-        <p>GALLERY</p>
+        GALLERY
       </Link>
       <Link to={"#FloorPlan"} className="Link">
-        <p>FLOOR PLAN</p>
+        FLOOR PLAN
       </Link>
       <Link to={"#Location"} className="Link">
-        <p>LOCATION</p>
+        LOCATION
       </Link>
     </div>
   );

@@ -12,7 +12,7 @@ import ShowCase from "./components/OurProjects/showcase/ShowCase";
 export default function App() {
   return (
     <div className="hero-page">
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="hero-overlay">
         <div className="hero-overlay-text">
           <h1>

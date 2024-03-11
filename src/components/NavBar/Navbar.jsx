@@ -26,17 +26,17 @@ const Navbar = () => {
           <CloseOutlined style={{ fontSize: "25px" }} />
         </div>
 
-        <Link to="/" className="Link">
-          <p>Home</p>
+        <Link to="/" className="Link"  style={{color:"black"}}>
+          Home
         </Link>
-        <Link to="/AboutUs" className="Link">
-          <p>About Us</p>
+        <Link to="/AboutUs" className="Link" style={{color:"black"}}>
+          About Us
         </Link>
-        <Link to="/ContactUs" className="Link">
-          <p>Contact Us</p>
+        <Link to="/ContactUs" className="Link" style={{color:"black"}}>
+          Contact Us
         </Link>
-        <Link to="/OurProjects" className="Link">
-          <p>Our Projects</p>
+        <Link to="/OurProjects" className="Link" style={{color:"black"}}>
+          Our Projects
         </Link>
       </ul>
     </nav>
