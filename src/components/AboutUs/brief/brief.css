@@ -92,6 +92,10 @@
     font-size: 2.4rem;
   }
 
+  .a-b-content > p{
+    font-size: 20px;
+  }
+
   .brief-img-container {
     height: 100%;
     width: 100%;

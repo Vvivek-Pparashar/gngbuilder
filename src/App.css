@@ -54,6 +54,12 @@
   color: white;
 }
 
+@media screen and (max-width: 1084px) and (min-width: 600px) {
+  .hero-overlay {
+    height: 85vh;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .hero-overlay {
     height: 85vh;

@@ -17,6 +17,7 @@
 
   background-image: url("../../assets/Desktop - 2.jpg");
   background-position: 0% 70%;
+  background-size: cover;
 }
 
 .hero-page-img-3 {
@@ -25,6 +26,21 @@
 
   background-image: url("../../assets/Desktop - 3.jpg");
   background-position: 0% 10%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1084px) and (min-width: 600px) {
+  .hero-page-img-1 {
+    background-position: 30% 50%;
+  }
+
+  .hero-page-img-2 {
+    background-position: 40% 70%;
+  }
+
+  .hero-page-img-3 {
+    background-position: 30% 0%;
+  }
 }
 
 @media screen and (max-width: 600px) {
