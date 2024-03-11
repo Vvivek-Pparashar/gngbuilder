@@ -33,6 +33,7 @@
 
   .feature-component p {
     font-size: 15px;
+    color: #89652b;
   }
 }
 
@@ -43,11 +44,9 @@
 
   .feature-component h1 {
     font-size: 25px;
-    color: rgba(245, 245, 245, 0.709);
   }
 
   .feature-component p {
     font-size: 15px;
-    color: rgba(245, 245, 245, 0.711);
   }
 }

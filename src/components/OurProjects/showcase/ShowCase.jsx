@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Hm4 from "../../../assets/un1.png";
+import Hm4 from "../../../assets/un4.jpg";
 import Hm5 from "../../../assets/apartments.jpg";
 
 import "./ShowCase.css";
@@ -14,14 +14,16 @@ const ShowCase = () => {
           <div className="op-card-text">
             <h2>GnG Commercial - Alinza</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
+              Alianza: Shop, eat, work, and enjoy all in one place. Away from
+              chaos, built for your satisfaction. Elevating luxury with a touch
+              of extravagance. Our shops have sidewalk access, ensuring
+              excellent street visibility and walk-ins. The corner shape of the
+              Plaza guarantees property appreciation. Alianza offices offer
+              natural light, scenic views, and great connectivity, attracting
+              talent and promoting work-life balance. Enjoy impeccable dining
+              spaces, outdoor activities, and a lively rooftop cafe with
+              dazzling skyline views. To add some fun to our busy lives! Come
+              check out the Gaming Zone and Kids Play Area at Alianza.
             </p>
           </div>
           <Link to={"/GnG-Commercial-Alenza"}>
@@ -35,14 +37,16 @@ const ShowCase = () => {
           <div className="op-card-text">
             <h2>GnG Residencial - Alinza</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              hic a voluptatibus numquam at eos? Id ad obcaecati fugiat quo.
+              Alianza: Shop, eat, work, and enjoy all in one place. Away from
+              chaos, built for your satisfaction. Elevating luxury with a touch
+              of extravagance. Our shops have sidewalk access, ensuring
+              excellent street visibility and walk-ins. The corner shape of the
+              Plaza guarantees property appreciation. Alianza offices offer
+              natural light, scenic views, and great connectivity, attracting
+              talent and promoting work-life balance. Enjoy impeccable dining
+              spaces, outdoor activities, and a lively rooftop cafe with
+              dazzling skyline views. To add some fun to our busy lives! Come
+              check out the Gaming Zone and Kids Play Area at Alianza.
             </p>
           </div>
           <button style={{ cursor: "default" }}>Coming Soon...</button>

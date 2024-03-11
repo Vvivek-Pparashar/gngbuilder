@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -12,80 +13,62 @@ const Footer = () => {
         <div className="footer-links">
           <h4>Quick links</h4>
           <p>
-            <a href="#">Home</a>
+            <Link to={"/"}>Home</Link>
           </p>
           <p>
-            <a href="#">About</a>
+            <Link to={"/AboutUs"}>About</Link>
           </p>
           <p>
-            <a href="#">Blogs</a>
+            <Link to={"contactUs"}>Contact</Link>
           </p>
           <p>
-            <a href="#">Contact</a>
+            <Link to={"OurProjects"}>Projects</Link>
           </p>
         </div>
         <div className="footer-services">
-          <h4>Services</h4>
+          <h4>Our Projects</h4>
           <p>
-            <a href="#">App development</a>
-          </p>
-          <p>
-            <a href="#">Web development</a>
-          </p>
-          <p>
-            <a href="#">DevOps</a>
-          </p>
-          <p>
-            <a href="#">Web designing</a>
+            <Link to={""}>Alinza</Link>
           </p>
         </div>
         <div className="social-media">
           <h4>Social</h4>
           <p>
-            <a href="#">
-              <i className="fab fa-linkedin"></i> Linkedin
-            </a>
-          </p>
-          <p>
-            <a href="#">
+            <Link to={"https://twitter.com/Gngbuilders"} target="__blank">
               <i className="fab fa-twitter"></i> Twitter
-            </a>
+            </Link>
           </p>
           <p>
-            <a href="https://github.com/farazc60">
-              <i className="fab fa-github"></i> Github
-            </a>
+            <Link to={"https://www.youtube.com/@GNGBUILDERS"} target="__blank">
+              <i className="fab fa-facebook"></i> YouTube
+            </Link>
           </p>
           <p>
-            <a href="https://www.facebook.com/codewithfaraz">
-              <i className="fab fa-facebook"></i> Facebook
-            </a>
-          </p>
-          <p>
-            <a href="https://www.instagram.com/codewithfaraz">
+            <Link
+              to={
+                "https://www.instagram.com/gng_builders?igsh=MXN5M2M3NG5tN3RreA%3D%3D&utm_source=qr"
+              }
+              target="__blank"
+            >
               <i className="fab fa-instagram"></i> Instagram
-            </a>
+            </Link>
           </p>
         </div>
         <div className="footer-details">
           <h4 className="footer-address">Address</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Cupiditate, qui!
-          </p>
+          <p>Kishanpura Road, Dhakoli, Zirakpur, Mohali, Punjab</p>
           <h4 className="mobile">Mobile</h4>
           <p>
-            <a href="#">+91-95350320310</a>
+            <Link to={"tel: 7404804048"}>+91-7404804048</Link>
           </p>
           <h4>Email</h4>
           <p>
-            <a href="#">vivekparashartkd@gmail.com</a>
+            <Link to={""}>vivekparashartkd@gmail.com</Link>
           </p>
         </div>
       </div>
       <footer>
-        <hr style={{ background: "black", color: "black" }} />© 2022
-        codewithvivek.
+        <hr style={{ background: "black", color: "black" }} />COPYRIGHT © 2024. GNG, ALL RIGHTS RESERVED
       </footer>
     </div>
   );

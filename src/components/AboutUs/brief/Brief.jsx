@@ -7,17 +7,21 @@ const Brief = () => {
       <div className="a-b-content">
         <h1>A brief About us</h1>
         <p className="text-4xl max-[400px]:text-2xl leading-[2.7rem] text-orange-950 font-bold">
-          The Gng Group carries a rich legacy of over half a century built on
-          the trust and belief of our customers and stakeholders. The group is
-          one of Mumbai’s leading real estate companies and is currently
-          developing residential, commercial and township projects spread across
-          approximately 4.21 Million sq.m Developed, ongoing & future (45
-          million square feet). Timely completion of projects coupled with
-          strong planning and design innovation gives the group an edge over its
-          competitors. As an organization, the group is also known for its
-          employee-friendly and professional working environment. Today, the
-          group’s clientele comprises of over 20,000+ satisfied customers and
-          over 150 + MNC corporate tenants.
+          Introducing the epitome of opulence and sophistication, The Gng
+          builders is a trusted builder based in the tricity vicinity
+          (Chandigarh, Panchkula, Mohali). A meticulous crafter of your dreams
+          to begin with your new chapter of life. A masterpiece of intellectual
+          brilliance reflected through our Architectures. Elevating the concept
+          of lavish living, as a building is not just an architecture but a
+          sanctuary of indulgence. Beyond the architectural marvels the GNG
+          group offers a celebration of lifestyle with aminities
+          redefining luxury.With a commitment to quality, customer satisfaction,
+          and sustainable practices, we strive to deliver projects that
+          harmonize functionality, aesthetics, and comfort.
+          Our unique projects,
+          like Alianza, boast excellent street visibility and a prime location,
+          surrounded by greenery, natural light, and stunning views. With great
+          connectivity and the ability to attract talent from across the city.
         </p>
       </div>
       <div className="brief-img-container">
