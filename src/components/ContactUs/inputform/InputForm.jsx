@@ -94,7 +94,7 @@ const InputForm = () => {
       </div>
       <MapContainer
         className="markercluster-map"
-        center={[30.726898, 76.652441]}
+        center={[30.6534578, 76.8501860]}
         zoom={14}
         maxZoom={17}
       >
@@ -103,9 +103,9 @@ const InputForm = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        <Marker position={[30.726898, 76.652441]}>
+        <Marker position={[30.6534578, 76.8501860]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            GnG Alianza <br />
           </Popup>
         </Marker>
       </MapContainer>

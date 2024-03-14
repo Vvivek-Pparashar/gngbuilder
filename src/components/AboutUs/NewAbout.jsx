@@ -22,17 +22,25 @@ const NewAbout = () => {
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <h4 className="section-title">About Us</h4>
               <h1 className="display-5 mb-4">
-                A Creative Architecture Agency For Your Dream Home
+                Transforming vision into architectural masterpiece
               </h1>
               <p>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                We are all about making your dream home a reality! Our talented
+                architects and designers bring a fresh and innovative approach
+                to every project. We believe in combining aesthetics,
+                functionality, and sustainability to create amazing spaces.
+                Whether it's a commercial township or a residential complex, we
+                work closely with our clients to understand their vision and
+                bring it to life. With attention to detail and out-of-the-box
+                thinking, we ensure that each project is unique and tailored to
+                your needs. We value open communication and collaboration,
+                involving you every step of the way.
               </p>
               <p className="mb-4">
-                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
-                stet est diam rebum amet diam ipsum. Clita clita labore, dolor
-                duo nonumy clita sit at, sed sit sanctus dolor eos.
+                From concept to completion, we strive to exceed your
+                expectations and leave a lasting impression. Choose GNG Builders
+                to turn your dream home into a reality! Let's build something
+                extraordinary together!
               </p>
               <div className="d-flex align-items-center mb-5">
                 <div
@@ -40,7 +48,7 @@ const NewAbout = () => {
                   style={{ width: "120px", height: "120px" }}
                 >
                   <h1 className="display-1 mb-n2" data-toggle="counter-up">
-                    25
+                    30
                   </h1>
                 </div>
                 <div className="ps-4">
@@ -65,9 +73,11 @@ const NewAbout = () => {
                 Why You Should Trust Us? Learn More About Us!
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                At GNG Builders, we understand the importance of getting things
+                right from the very beginning. With our expertise and
+                dedication, we'll work closely with you to ensure that your
+                pre-launch project is a success. Trust us to bring your vision
+                to life and create something truly remarkable!
               </p>
               <div className="row g-4">
                 <div className="col-12">
@@ -76,8 +86,10 @@ const NewAbout = () => {
                     <div className="ms-4">
                       <h3>Design Approach</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        Our unique design approach sets us apart from the rest.
+                        We believe in pushing boundaries and thinking outside
+                        the box to create innovative and captivating designs
+                        that stand out.
                       </p>
                     </div>
                   </div>
@@ -88,8 +100,8 @@ const NewAbout = () => {
                     <div className="ms-4">
                       <h3>Innovative Solutions</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        At GNG Builders, we pride ourselves on delivering
+                        innovative solutions for every project.
                       </p>
                     </div>
                   </div>
@@ -100,8 +112,10 @@ const NewAbout = () => {
                     <div className="ms-4">
                       <h3>Project Management</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        When it comes to project management, Our experienced
+                        team ensures seamless coordination and efficient
+                        execution, keeping your project on track and within
+                        budget.
                       </p>
                     </div>
                   </div>

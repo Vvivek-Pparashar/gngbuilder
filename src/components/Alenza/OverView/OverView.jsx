@@ -6,19 +6,15 @@ const OverView = () => {
   return (
     <div id="OverView" className="al-ov">
       <div className="al-ov-left">
-        <h2>INSPIRATION. CRAFT. LEGACY</h2>
-        <p>3 BED, 4 BED & DUPLEX HOME</p>
-        <p>Pali Hill</p>
+        <h2>COMMERCIAL - GNG ALIANZA</h2>
+        <p className="al-ov-left-p" style={{fontSize:"16px"}}>15x30 (450 SQ FT) | 16x70 (1120 SQ FT) | 15x80 (1200 SQ FT) <br></br> Shops & Showroom Available</p>
+        {/* <p className="al-ov-left-p" style={{marginTop:"-40px"}}></p> */}
         <p>
-          Samarpan is a resulting masterpiece of matchless skill, imagination
-          and intention, that is crafted without compromise. Designed with a
-          philosophy of ‘Inside Out Design’, that is inspired from one of
-          nature’s singular creations – the Fibonacci Spiral.
+        Alianza's Commercial Projects: Building Dreams. At Alianza, we take pride in constructing commercial spaces that inspire success. With our attention to detail and commitment to quality, we create buildings that stand the test of time. Together we can bring your vision to life and deliver exceptional commercial projects tailored to your business needs."
         </p>
-        <h6>
-          100 Mts from Arabian Sea | Lush greenery | Openness of playgrounds |
-          Colonial architecture of Petit School
-        </h6>
+        {/* <h6>
+          
+        </h6> */} 
         <button>Download Broucher</button>
       </div>
       <div className="al-ov-right">

@@ -17,12 +17,12 @@ const Features = () => {
       />
       <Featurecomponent
         featureLogo={logo2}
-        heading={"METICULOUS PLANNING"}
-        brief={"Well planned homes keeping the smallest details in mind"}
+        heading={"AMPLE PARKING SPACE"}
+        brief={"The Ease Of Parking is also a luxury"}
       />
       <Featurecomponent
         featureLogo={logo3}
-        heading={"CUSTOMER FIRST"}
+        heading={"Catchment of 5Lakh Families"}
         brief={"Adopting a customer first Approach in everything we do"}
       />
       <Featurecomponent
@@ -32,7 +32,7 @@ const Features = () => {
       />
       <Featurecomponent
         featureLogo={logo5}
-        heading={"MODERN TECHNOLOGY"}
+        heading={"100% DG POWER BACKUP"}
         brief={"Adapting latest technology in our projects"}
       />
       <Featurecomponent

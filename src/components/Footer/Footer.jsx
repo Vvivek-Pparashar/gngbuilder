@@ -44,6 +44,11 @@ const Footer = () => {
             </Link>
           </p>
           <p>
+            <Link to={"https://www.facebook.com/gng.builders/"} target="__blank">
+              <i className="fab fa-facebook"></i> FaceBook
+            </Link>
+          </p>
+          <p>
             <Link
               to={
                 "https://www.instagram.com/gng_builders?igsh=MXN5M2M3NG5tN3RreA%3D%3D&utm_source=qr"
@@ -63,7 +68,7 @@ const Footer = () => {
           </p>
           <h4>Email</h4>
           <p>
-            <Link to={""}>vivekparashartkd@gmail.com</Link>
+            <Link to={""}>gngzirakpur@gmail.com</Link>
           </p>
         </div>
       </div>
