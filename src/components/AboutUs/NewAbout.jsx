@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../assets/about-1.jpg";
-import img2 from "../../assets/about-2.jpg";
+import img1 from "../../assets/about-1.png";
+import img2 from "../../assets/about-2.png";
 import p1 from "../../assets/team-1.jpg";
 import ic1 from "../../assets/icon-1.png";
 import ic2 from "../../assets/icon-2.png";
@@ -124,8 +124,8 @@ const NewAbout = () => {
             </div>
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
               <div className="feature-img">
-                <img className="img-fluid" src={img1} alt="" />
                 <img className="img-fluid" src={img2} alt="" />
+                <img className="img-fluid" src={img1} alt="" />
               </div>
             </div>
           </div>
