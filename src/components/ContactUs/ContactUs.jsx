@@ -1,5 +1,4 @@
 import LandingPage from "./landingpage/LandingPage";
-import InputForm from "./inputform/InputForm";
 import "./landingpage/landingPage.css";
 import "./inputform/inputForm.css";
 import Navbar from "../NavBar/Navbar";

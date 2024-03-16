@@ -12,10 +12,10 @@ const Crausal = () => {
       direction={"vertical"}
       spaceBetween={30}
       effect={"fade"}
-      // autoplay={{
-      //   delay: 3500,
-      //   disableOnInteraction: false,
-      // }}
+      autoplay={{
+        delay: 3500,
+        disableOnInteraction: false,
+      }}
       loop={true}
       modules={[EffectFade, Navigation, Autoplay]}
       className="mySwiper"
