@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const changeNavBg = () => {
-    window.scrollY >= 100 ? setNavBg(true) : setNavBg(false);
+    window.scrollY >= 400 ? setNavBg(true) : setNavBg(false);
   };
 
   window.addEventListener("scroll", changeNavBg);
@@ -26,16 +26,16 @@ const Navbar = () => {
           <CloseOutlined style={{ fontSize: "25px" }} />
         </div>
 
-        <Link to="/" className="Link"  style={{color:"white"}}>
+        <Link to="/" className="Link"  style={{color:"black"}}>
           Home
         </Link>
-        <Link to="/AboutUs" className="Link" style={{color:"white"}}>
+        <Link to="/AboutUs" className="Link" style={{color:"black"}}>
           About Us
         </Link>
-        <Link to="/ContactUs" className="Link" style={{color:"white"}}>
+        <Link to="/ContactUs" className="Link" style={{color:"black"}}>
           Contact Us
         </Link>
-        <Link to="/OurProjects" className="Link" style={{color:"white"}}>
+        <Link to="/OurProjects" className="Link" style={{color:"black"}}>
           Our Projects
         </Link>
       </ul>

@@ -8,7 +8,7 @@
 
   background-image: 
   
-    url("../../assets/un1.png");
+    url("../../assets/un6.jpg");
   background-position: -10% 50%;
   background-size: cover;
 }
@@ -17,7 +17,7 @@
   width: 100vw;
   height: 100vh;
 
-  background-image: url("../../assets/un2.png");
+  background-image: url("../../assets/un4.jpg");
   background-position: 0% 70%;
   background-size: cover;
 }
@@ -27,7 +27,7 @@
   height: 100vh;
 
   background-image: url("../../assets/un3.png");
-  background-position: 0% 10%;
+  background-position: 0% 70%;
   background-size: cover;
 }
 
