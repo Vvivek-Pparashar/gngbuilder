@@ -14,12 +14,11 @@ import "./Gallery.css";
 // import required modules
 import { Zoom, Autoplay, FreeMode, Navigation, Thumbs } from "swiper/modules";
 
-import hm1 from "../../../assets/un1.png";
-import hm2 from "../../../assets/un2.png";
+import hm4 from "../../../assets/desktop - 4.jpg";
+import hm5 from "../../../assets/desktop - 5.png";
 import hm3 from "../../../assets/un3.png";
-import hm4 from "../../../assets/un4.jpg";
-import hm5 from "../../../assets/un5.png";
-import hm6 from "../../../assets/un6.jpg";
+import hm1 from "../../../assets/un4.jpg";
+import hm2 from "../../../assets/un6.jpg";
 
 export default function Gallery() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -70,11 +69,6 @@ export default function Gallery() {
               <img src={hm5} />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-zoom-container">
-              <img src={hm6} />
-            </div>
-          </SwiperSlide>
         </Swiper>
         <Swiper
           onSwiper={setThumbsSwiper}
@@ -100,9 +94,6 @@ export default function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="vive un5"></div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="vive un6"></div>
           </SwiperSlide>
         </Swiper>
       </div>

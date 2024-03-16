@@ -1,5 +1,5 @@
 import React from "react";
-import hm1 from "../../../assets/briefIMG-alianza.png";
+import hm1 from "../../../assets/briefIMG.png";
 import "./OverView.css";
 
 const OverView = () => {

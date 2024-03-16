@@ -104,12 +104,12 @@
 
 .un1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
-    url("../../../assets/un1.png");
+    url("../../../assets/un4.jpg");
 }
 
 .un2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
-    url("../../../assets/un2.png");
+    url("../../../assets/un6.jpg");
 }
 
 .un3 {
@@ -119,12 +119,12 @@
 
 .un4 {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
-    url("../../../assets/un4.jpg");
+    url("../../../assets/desktop - 4.jpg");
 }
 
 .un5 {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
-    url("../../../assets/un5.png");
+    url("../../../assets/desktop - 5.png");
 }
 
 .un6 {
@@ -140,12 +140,12 @@
 }
 
 .mySwiper .swiper-slide-thumb-active .un1 {
-  background: url("../../../assets/un1.png");
+  background: url("../../../assets/un4.jpg");
   background-size: cover;
 }
 
 .mySwiper .swiper-slide-thumb-active .un2 {
-  background: url("../../../assets/un2.png");
+  background: url("../../../assets/un6.jpg");
   background-size: cover;
 }
 
@@ -155,16 +155,11 @@
 }
 
 .mySwiper .swiper-slide-thumb-active .un4 {
-  background: url("../../../assets/un4.jpg");
+  background: url("../../../assets/desktop - 4.jpg");
   background-size: cover;
 }
 
 .mySwiper .swiper-slide-thumb-active .un5 {
-  background: url("../../../assets/un5.png");
-  background-size: cover;
-}
-
-.mySwiper .swiper-slide-thumb-active .un6 {
-  background: url("../../../assets/un6.jpg");
+  background: url("../../../assets/desktop - 5.png");
   background-size: cover;
 }
