@@ -15,11 +15,11 @@ export default function App() {
       <Navbar />
       <div className="hero-overlay">
         <div className="hero-overlay-text">
-          <h1>
+          {/* <h1>
             YOU DREAM IT, {" "}<br></br>WE BUILD IT 
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <button>Explore More</button>
+          <button>Explore More</button> */}
         </div>
         <Crausal />
       </div>
