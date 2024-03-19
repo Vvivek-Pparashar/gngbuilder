@@ -69,6 +69,7 @@
 
   .hero-overlay-text{
     padding: 0 30px;
+    gap: 15px;
   }
 
   .hero-overlay-text > h1 {

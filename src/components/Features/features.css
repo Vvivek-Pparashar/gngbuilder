@@ -9,6 +9,7 @@
   justify-content: space-around;
   padding-inline: 5%;
   gap: 50px;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 @media screen and (max-width: 1084px) and (min-width: 600px) {

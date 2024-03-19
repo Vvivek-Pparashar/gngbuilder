@@ -35,7 +35,7 @@ nav {
   position: fixed;
   background-color: #d8c8bd;
   color: black;
-  height: 90px;
+  height: 80px;
   box-shadow: 0px 1px 10px #999;
 }
 
@@ -48,6 +48,7 @@ nav > ul {
 }
 
 .Link > p{
+  text-align: center;
   font-size: 23px;
 }
 
@@ -78,6 +79,10 @@ nav > ul {
     transition: 0.3s linear;
   }
 
+  nav > ul {
+    margin-left: -100px;
+  }
+
   .menu-btn {
     display: block;
     cursor: pointer;
@@ -95,7 +100,7 @@ nav > ul {
   }
 
   .active {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     width: 70%;

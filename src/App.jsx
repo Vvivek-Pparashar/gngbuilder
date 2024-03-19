@@ -20,7 +20,7 @@ export default function App() {
           <h1>
             YOU DREAM IT, WE <span style={{color:"#C5A253"}}>BUILD</span> IT
           </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>Lorem ipsum dolor sit amet consectetur</p>
           <button>Explore More</button>
         </div>
         <Crausal />
