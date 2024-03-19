@@ -10,6 +10,7 @@ import { ScrollRestoration } from "react-router-dom";
 import ShowCase from "./components/OurProjects/showcase/ShowCase";
 import EatShopGrow from "./components/EatShopGrow/EatShopGrow";
 import RecentlyJoined from "./components/RecentlyJoined/RecentlyJoined";
+import Floating from "./components/FloatingWhatsapp/Floating";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
       <RecentlyJoined />
       <InputForm />
       <Footer />
+      <Floating/>
       <ScrollRestoration />
     </div>
   );
