@@ -8,6 +8,8 @@ import InputForm from "./components/ContactUs/inputform/InputForm";
 import Features from "./components/Features/Features";
 import { ScrollRestoration } from "react-router-dom";
 import ShowCase from "./components/OurProjects/showcase/ShowCase";
+import EatShopGrow from "./components/EatShopGrow/EatShopGrow";
+import RecentlyJoined from "./components/RecentlyJoined/RecentlyJoined";
 
 export default function App() {
   return (
@@ -15,18 +17,20 @@ export default function App() {
       <Navbar />
       <div className="hero-overlay">
         <div className="hero-overlay-text">
-          {/* <h1>
+          <h1>
             YOU DREAM IT, {" "}<br></br>WE BUILD IT 
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <button>Explore More</button> */}
+          <button>Explore More</button>
         </div>
         <Crausal />
       </div>
       <Brief />
-      <ShowCase />
+      {/* <ShowCase /> */}
+      <EatShopGrow/>
       <Features />
       <Vision />
+      <RecentlyJoined/>
       <InputForm />
       <Footer />
       <ScrollRestoration />

@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
 
-  background-image: url("../../assets/un4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../../assets/un4.jpg");
   background-position: -10% 50%;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
 .hero-page-img-2 {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/un6.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/un6.jpg");
   background-position: 0% 70%;
   background-size: cover;
 }
@@ -23,7 +23,7 @@
   width: 100vw;
   height: 100vh;
 
-  background-image: url("../../assets/un3.png");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/un3.png");
   background-position: 0% 70%;
   background-size: cover;
 }
@@ -32,7 +32,7 @@
   width: 100vw;
   height: 100vh;
 
-  background-image: url("../../assets/desktop - 4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../assets/desktop - 4.jpg");
   background-position: -10% 50%;
   background-size: cover;
 }
@@ -41,7 +41,7 @@
   width: 100vw;
   height: 100vh;
 
-  background-image: url("../../assets/desktop - 5.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../assets/desktop - 5.png");
   background-position: 0% 30%;
   background-size: cover;
 }

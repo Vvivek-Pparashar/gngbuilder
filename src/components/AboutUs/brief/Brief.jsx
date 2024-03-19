@@ -5,7 +5,7 @@ const Brief = () => {
   return (
     <section className="about-brief">
       <div className="a-b-content">
-        <h1>A brief About us</h1>
+        <h1>About us</h1>
         <p className="text-4xl max-[400px]:text-2xl leading-[2.7rem] text-orange-950 font-bold">
           Introducing the epitome of opulence and sophistication, The Gng
           builders is a trusted builder based in the tricity vicinity

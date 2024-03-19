@@ -12,8 +12,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   transition: 0.5s all ease-in-out;
-  background-color: #d8c8bd;
-  box-shadow: 0px 1px 10px #999;
+  /* background-color: #d8c8bd; */
+  /* box-shadow: 0px 1px 10px #999; */
 }
 
 .logo {
