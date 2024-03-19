@@ -18,7 +18,7 @@ export default function App() {
       <div className="hero-overlay">
         <div className="hero-overlay-text">
           <h1>
-            YOU DREAM IT, {" "}<br></br>WE BUILD IT 
+            YOU DREAM IT, WE <span style={{color:"#C5A253"}}>BUILD</span> IT
           </h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
           <button>Explore More</button>
@@ -27,10 +27,10 @@ export default function App() {
       </div>
       <Brief />
       {/* <ShowCase /> */}
-      <EatShopGrow/>
+      <EatShopGrow />
       <Features />
       <Vision />
-      <RecentlyJoined/>
+      <RecentlyJoined />
       <InputForm />
       <Footer />
       <ScrollRestoration />
