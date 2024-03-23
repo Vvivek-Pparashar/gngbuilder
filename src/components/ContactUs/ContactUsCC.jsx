@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import {
+  ClockCircleTwoTone,
+  HddTwoTone,
+  MailTwoTone,
+  MessageTwoTone,
+  MobileTwoTone,
+  UserOutlined,
+} from "@ant-design/icons";
 
 const ContactUsCC = () => {
+  const [data, setData] = useState({
+    firstName: "",
+    lastName: "",
+    mobileNo: "",
+    email: "",
+    interested: "",
+    message: "",
+  });
+
+  let message = `First Name = ${data.firstName} %0DLast Name = ${data.lastName}%0DMobile No. = ${data.mobileNo}%0DEmail = ${data.email} %0DMessage = ${data.message}`;
+
+  console.log(message);
   return (
     <div>
       <div className="container-xxl py-5">
@@ -82,19 +102,10 @@ const ContactUsCC = () => {
               </div>
             </div>
             <div className="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              {/* <iframe
-                className="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                frameborder="0"
-                style={{ minHeight: "400px", border: "0" }}
-                allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-              ></iframe> */}
               <iframe
-              className="position-relative rounded w-100 h-100"
+                className="position-relative rounded w-100 h-100"
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3432.307714382743!2d76.84761107453326!3d30.65346238946125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDM5JzEyLjUiTiA3NsKwNTEnMDAuNyJF!5e0!3m2!1sen!2sin!4v1711017652762!5m2!1sen!2sin"
-                style={{ minHeight: "400px", border: "0" }}
+                style={{ minHeight: "350px", border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
                 aria-hidden="false"
@@ -105,77 +116,98 @@ const ContactUsCC = () => {
             </div>
             <div className="col-md-6">
               <div className="wow fadeInUp" data-wow-delay="0.5s">
-                <form>
-                  <div className="row g-3">
-                    <div className="col-md-6">
-                      <div className="form-floating">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="name"
-                          placeholder="Your Name"
-                          required
-                        />
-                        <label for="name">First Name</label>
+                <div className="if-input-form">
+                  <div className="if-input-form-row">
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <UserOutlined style={{ color: "#1677FF" }} />
                       </div>
+                      <input
+                        placeholder="First Name"
+                        className="input"
+                        value={data.firstName}
+                        onChange={(e) =>
+                          setData({ ...data, firstName: e.target.value })
+                        }
+                      />
                     </div>
-                    <div className="col-md-6">
-                      <div className="form-floating">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="email"
-                          placeholder="Your Email"
-                          required
-                        />
-                        <label for="email">Last Name</label>
+
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <UserOutlined style={{ color: "#1677FF" }} />
                       </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="form-floating">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="Mobile"
-                          placeholder="Mobile No."
-                          required
-                        />
-                        <label for="message">Mobile No.</label>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="form-floating">
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="Email"
-                          placeholder="Email"
-                          required
-                        />
-                        <label for="subject">Email</label>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="form-floating">
-                        <textarea
-                          className="form-control"
-                          placeholder="Leave a message here"
-                          id="message"
-                          style={{ height: "150px" }}
-                        ></textarea>
-                        <label for="message">Message</label>
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <button
-                        className="btn btn-primary w-100 py-3"
-                        type="submit"
-                      >
-                        Send Message
-                      </button>
+                      <input
+                        placeholder="Last Name"
+                        className="input"
+                        value={data.lastName}
+                        onChange={(e) =>
+                          setData({ ...data, lastName: e.target.value })
+                        }
+                      />
                     </div>
                   </div>
-                </form>
+
+                  <div className="if-input-form-row">
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <MobileTwoTone />
+                      </div>
+                      <input
+                        placeholder="Mobile No"
+                        className="input"
+                        value={data.mobileNo}
+                        onChange={(e) =>
+                          setData({ ...data, mobileNo: e.target.value })
+                        }
+                      />
+                    </div>
+
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <MailTwoTone />
+                      </div>
+                      <input
+                        placeholder="Email"
+                        className="input"
+                        value={data.email}
+                        onChange={(e) =>
+                          setData({ ...data, email: e.target.value })
+                        }
+                      />
+                    </div>
+                  </div>
+
+                  <div className="if-input-form-row">
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <ClockCircleTwoTone />
+                      </div>
+                      <input type="date" className="input" />
+                    </div>
+                  </div>
+
+                  <div className="if-input-form-row">
+                    <div className="if-input-form-container">
+                      <div className="if-input-form-abs">
+                        <MessageTwoTone />
+                      </div>
+                      <input
+                        placeholder="Message"
+                        className="input"
+                        value={data.message}
+                        onChange={(e) =>
+                          setData({ ...data, message: e.target.value })
+                        }
+                      />
+                    </div>
+                  </div>
+
+                  <a
+                    href={`mailto:${"vivekparashartkd@gmail.com"}?subject= ${"subject"}&body=${message}`}
+                  >
+                    <button onClick={onclick}>Contact us</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

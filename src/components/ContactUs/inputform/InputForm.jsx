@@ -9,8 +9,19 @@ import {
 } from "@ant-design/icons";
 import "leaflet/dist/leaflet.css";
 import "./inputForm.css";
+import { useState } from "react";
 
 const InputForm = () => {
+  const [data, setData] = useState({
+    firstName: "",
+    lastName: "",
+    mobileNo: "",
+    email: "",
+    interested: "",
+    message: "",
+  });
+
+  let message = `First Name = ${data.firstName} %0DLast Name = ${data.lastName}%0DMobile No. = ${data.mobileNo}%0DEmail = ${data.email} %0DMessage = ${data.message}`;
   return (
     <div className="if" id="Location">
       <div className="if-input">
@@ -22,79 +33,88 @@ const InputForm = () => {
               <div className="if-input-form-abs">
                 <UserOutlined style={{ color: "#1677FF" }} />
               </div>
-              <input placeholder="First Name" className="input" />
+              <input
+                placeholder="First Name"
+                className="input"
+                value={data.firstName}
+                onChange={(e) =>
+                  setData({ ...data, firstName: e.target.value })
+                }
+              />
             </div>
 
             <div className="if-input-form-container">
               <div className="if-input-form-abs">
                 <UserOutlined style={{ color: "#1677FF" }} />
               </div>
-              <input placeholder="Last Name" className="input" />
+              <input
+                placeholder="Last Name"
+                className="input"
+                value={data.lastName}
+                onChange={(e) => setData({ ...data, lastName: e.target.value })}
+              />
             </div>
           </div>
 
           <div className="if-input-form-row">
             <div className="if-input-form-container">
               <div className="if-input-form-abs">
-                {/* <CommentOutlined /> */}
                 <MobileTwoTone />
               </div>
-              <input placeholder="Mobile No" className="input" />
+              <input
+                placeholder="Mobile No"
+                className="input"
+                value={data.mobileNo}
+                onChange={(e) => setData({ ...data, mobileNo: e.target.value })}
+              />
             </div>
 
             <div className="if-input-form-container">
               <div className="if-input-form-abs">
-                {/* <MailOutlined /> */}
                 <MailTwoTone />
               </div>
-              <input placeholder="Email" className="input" />
+              <input
+                placeholder="Email"
+                className="input"
+                value={data.email}
+                onChange={(e) => setData({ ...data, email: e.target.value })}
+              />
             </div>
           </div>
 
           <div className="if-input-form-row">
             <div className="if-input-form-container">
               <div className="if-input-form-abs">
-                {/* <MobileOutlined /> */}
                 <ClockCircleTwoTone />
               </div>
               <input type="date" className="input" />
             </div>
-
-            <div className="if-input-form-container">
-              <div className="if-input-form-abs">
-                <HddTwoTone />
-              </div>
-              <select name="drinks" required className="input">
-                <option value="" disabled selected>
-                  Interested In
-                </option>
-                <optgroup label="Commercial">
-                  <option value="GNG Mall">GNG mall</option>
-                </optgroup>
-                <optgroup label="Residencial">
-                  <option value="mercedes">Gng Residence</option>
-                </optgroup>
-              </select>
-            </div>
           </div>
 
           <div className="if-input-form-row">
             <div className="if-input-form-container">
               <div className="if-input-form-abs">
-                {/* <MobileOutlined /> */}
-                {/* <ClockCircleTwoTone /> */}
                 <MessageTwoTone />
               </div>
-              <input placeholder="Message" className="input" />
+              <input
+                placeholder="Message"
+                className="input"
+                value={data.message}
+                onChange={(e) => setData({ ...data, message: e.target.value })}
+              />
             </div>
           </div>
 
-          <button>Contact us</button>
+          <a
+            href={`mailto:${"vivekparashartkd@gmail.com"}?subject= ${"subject"}&body=${message}`}
+          >
+            <button onClick={onclick}>Contact us</button>
+          </a>
         </div>
       </div>
       <MapContainer
         className="markercluster-map"
-        center={[30.6534578, 76.8501860]}
+        center={[30.6534578, 76.850186]}
         zoom={14}
         maxZoom={17}
       >
@@ -103,7 +123,7 @@ const InputForm = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        <Marker position={[30.6534578, 76.8501860]}>
+        <Marker position={[30.6534578, 76.850186]}>
           <Popup>
             GnG Alianza <br />
           </Popup>

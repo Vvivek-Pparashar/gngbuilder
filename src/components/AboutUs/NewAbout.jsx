@@ -131,7 +131,7 @@ const NewAbout = () => {
           </div>
         </div>
       </div>
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -246,7 +246,7 @@ const NewAbout = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -62,7 +62,7 @@
   border-bottom: 1px solid #1677ff;
 }
 
-.if-input-form > button {
+.if-input-form > a > button {
   width: 100%;
   border: none;
   color: white;
