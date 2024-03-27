@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="footer-details">
           <h4 className="footer-address">Address</h4>
-          <p>Kishanpura Road, Dhakoli, Zirakpur, Mohali, Punjab</p>
+          <p>Adjoining Sector 20 Pachkula, Kishanpura Road, Zirakpur, 160104</p>
           <h4 className="mobile">Mobile</h4>
           <p>
             <Link to={"tel: 7404804048"}>+91-7404804048</Link>
