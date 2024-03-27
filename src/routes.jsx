@@ -16,21 +16,25 @@ const router = createBrowserRouter([
   {
     path: "/AboutUs",
     element: <AboutUs/>,
+    errorElement: <Errorfile />,
   },
 
   {
     path: "/contactUs",
     element: <ContactUs />,
+    errorElement: <Errorfile />,
   },
 
   {
     path: "/OurProjects",
     element: <OurProjects />,
+    errorElement: <Errorfile />,
   },
 
   {
     path: "/GnG-Commercial-Alenza",
     element: <Alenza />,
+    errorElement: <Errorfile />,
   },
 ]);
 

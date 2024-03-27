@@ -61,11 +61,6 @@ export default function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <img src={hm4} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="swiper-zoom-container">
               <img src={hm5} />
             </div>
           </SwiperSlide>
@@ -88,9 +83,6 @@ export default function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="vive un3"></div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="vive un4"></div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="vive un5"></div>
